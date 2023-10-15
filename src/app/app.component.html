@@ -1,0 +1,15 @@
+<app-header></app-header>
+
+<app-pricing></app-pricing>
+
+<div class = "container">
+    <div class = "row row-cols-lg-3 m-4 p-4">
+        <app-body [arr] = "['Free' , '0' , '10' , '2']" ></app-body>
+        <app-body [arr] = "['Pro' , '15' , '20' , '2']"></app-body>
+        <app-body [arr] = "['Enterprise' , '30' , '30' , '2']"></app-body>
+    </div>
+</div>
+
+<app-compare-plans></app-compare-plans>
+
+<app-footer></app-footer>
